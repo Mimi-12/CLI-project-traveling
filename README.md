@@ -1,6 +1,6 @@
 # TravelingCli
 
-Welcome to the travel aplication! This gem will help you list and look up details on all of the major and necessary information of a specific countrie when plannin on traveling . All information is pulled from the "https://travelbriefing.org/countries.json api since its already in jason format when i want to search for a specific url it will be better to search it url.gsub("fomat=json" ") = https://travelbriefing.org/yemen then it will take u too the desired place.
+Welcome to the travel aplication! This gem will help you list and look up details on all of the major and necessary information of a specific countrie when planning on traveling . All information is pulled from the "https://travelbriefing.org/countries.json api since its already in jason format when i want to search for a specific url it will be better to search it url.gsub("fomat=json" ") = https://travelbriefing.org/yemen then it will take u too the desired place.
 
 ## Installation
 
