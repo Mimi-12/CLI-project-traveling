@@ -1,16 +1,14 @@
 # TravelingCli
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/traveling_cli`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Welcome to the travel aplication! This gem will help you list and look up details on all of the major and necessary information of a specific countrie when plannin on traveling . All information is pulled from the "https://travelbriefing.org/countries.json api since its already in jason format when i want to search for a specific url it will be better to search it url.gsub("fomat=json" ") = https://travelbriefing.org/yemen then it will take u too the desired place.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-```ruby
-gem 'traveling_cli'
-```
+gem "rest-client"
+gem "json"
+gem 'httparty'
 
 And then execute:
 
@@ -22,7 +20,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Execute the following 
+
+./bin/executable
+
+After running thise file folow the insteraction to get the information you want.
 
 ## Development
 
